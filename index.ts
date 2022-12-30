@@ -31,9 +31,15 @@ async function main() {
     const messageHashBinary = ethers.utils.arrayify(ethSignedMessageHash);
     const signature = await wallet.signMessage(messageHashBinary);
 
+    console.log('--- messageHash ---');
     console.log(messageHash);
+    console.log();
+    console.log('--- ethSignedMessageHash ---');
     console.log(ethSignedMessageHash);
+    console.log();
+    console.log('--- signature ---');
     console.log(signature);
+    console.log();
 }
 
 main();
