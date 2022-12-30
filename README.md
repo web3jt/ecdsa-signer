@@ -1,5 +1,13 @@
 # ECDSA Signer
 
+## Installation
+
+```bash
+cp config.sample.yaml config.yaml
+yarn
+```
+
+
 ## Run
 
 ```bash
